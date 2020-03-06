@@ -5,4 +5,4 @@ def prime?(number)
     (2..number-1).to_a.all? {|n| number % n != 0}
   end
 end
-puts prime?(254297)
+puts prime?(257923091)
